@@ -3,7 +3,7 @@
 #
 
 
-namespace Main(EntryPoint, import(*)) {
+namespace Main|EntryPoint, import(*)| {
     
     # This is a comment. #
     hello_world()
@@ -18,7 +18,7 @@ namespace Main(EntryPoint, import(*)) {
 
 
 
-namespace LogSystem() {
+namespace LogSystem|| {
     
     set name : [3, 34, 1234]
     
