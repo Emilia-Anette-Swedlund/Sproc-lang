@@ -11,7 +11,6 @@ namespace Main|EntryPoint, import(*)| {
     function hello_world() {
         print("Hello World")
     }
-
     
     LogSystem.print_set(LogSystem.name)
 }
@@ -19,7 +18,7 @@ namespace Main|EntryPoint, import(*)| {
 
 
 namespace LogSystem|| {
-    
+
     set name : [3, 34, 1234]
     
     function print_set(passedSet) {
